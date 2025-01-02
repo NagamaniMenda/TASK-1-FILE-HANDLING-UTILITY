@@ -107,13 +107,14 @@ The objective of the project is to:
      * @param oldContent The content to be replaced.
      * @param newContent The content to replace the old content with.
      * @throws IOException If an error occurs while modifying the file.
-
-   Read the content of the file
+    Read the content of the file
    Replace the old content with new content
   Write the updated content back to the file
+
 *Explanation of the Program*:
 
 #### *Main Operations*:
+
 1. *Write to a file*: 
    - The program writes an initial message to the file using writeToFile(). If the file doesn't exist, it is created.
    
@@ -127,6 +128,7 @@ The objective of the project is to:
    - The modifyFileContent() method is used to replace specific text in the file with new text. For example, replacing "File Handling" with "Java File Operations".
 
 #### *Methods*:
+
 - **writeToFile(String fileName, String data)**: Writes the provided data to the file. If the file exists, it overwrites the current content.
 - **readFromFile(String fileName)**: Reads and returns the content of the file.
 - **appendToFile(String fileName, String data)**: Appends new data to the file without overwriting existing content.
