@@ -13,4 +13,4 @@ OVERVIEW OF THE PROJECT:
 
 PROJECT: FileHandlingUtility using Java Programming
 
-![IMAGE alt](C:\Users\neeli\OneDrive\Desktop\mani\FileHandlingUtility)
+![image alt](C:\Users\neeli\OneDrive\Desktop\mani\FileHandlingUtility)
