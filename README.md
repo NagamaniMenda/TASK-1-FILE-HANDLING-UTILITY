@@ -61,3 +61,74 @@ The objective of the project is to:
 
 5. **Code Reusability**:  
    - Designed a modular and reusable utility that can be adapted to various projects requiring file manipulation.
+  
+***A SCRIPT DEMONSTRATING FILE OPERATIONS WITH CLEAR DOCUMENTATION***
+
+ ** This program demonstrates basic file operations in Java:
+ * 1. Writing to a file.
+ * 2. Reading from a file.
+ * 3. Appending data to a file.
+ * 4. Modifying specific content in a file.
+ * The operations are performed on a file named 'example.txt'.
+
+  The file on which operations will be performed
+
+ 1. Write data to a new file or overwrite existing data
+ 2. Read data from the file and display it
+ 3. Append new data to the file (adds data at the end)
+  4. Modify content in the file (replace a word or phrase)
+   5. Display the final content of the file
+     
+
+   
+ * Writes the provided data to a file.
+    * If the file already exists, it will be overwritten.
+     * @param fileName The name of the file to write to.
+     * @param data The data to write to the file.
+     * @throws IOException If an error occurs while writing to the file.
+
+     * Reads and returns the content of the specified file.
+     * 
+     * @param fileName The name of the file to read from.
+     * @return The content of the file as a String.
+     * @throws IOException If an error occurs while reading from the file.
+
+    
+     * Appends new data to the end of the file.
+     * If the file does not exist, it will be created.
+     * 
+     * @param fileName The name of the file to append data to.
+     * @param data The data to append to the file.
+     * @throws IOException If an error occurs while appending to the file.
+
+     * Modifies the content of the file by replacing specific old content with new content.
+     * 
+     * @param fileName The name of the file to modify.
+     * @param oldContent The content to be replaced.
+     * @param newContent The content to replace the old content with.
+     * @throws IOException If an error occurs while modifying the file.
+
+   Read the content of the file
+   Replace the old content with new content
+  Write the updated content back to the file
+*Explanation of the Program*:
+
+#### *Main Operations*:
+1. *Write to a file*: 
+   - The program writes an initial message to the file using writeToFile(). If the file doesn't exist, it is created.
+   
+2. *Read from the file*: 
+   - The content of the file is read and displayed to the user with readFromFile(). If the file doesn't exist, a "File not found!" message is shown.
+
+3. *Append to the file*: 
+   - The program appends new data to the file using appendToFile(), ensuring that new content is added to the end of the file without overwriting existing data.
+
+4. *Modify content in the file*: 
+   - The modifyFileContent() method is used to replace specific text in the file with new text. For example, replacing "File Handling" with "Java File Operations".
+
+#### *Methods*:
+- **writeToFile(String fileName, String data)**: Writes the provided data to the file. If the file exists, it overwrites the current content.
+- **readFromFile(String fileName)**: Reads and returns the content of the file.
+- **appendToFile(String fileName, String data)**: Appends new data to the file without overwriting existing content.
+- **modifyFileContent(String fileName, String oldContent, String newContent)**: Modifies specific content in the file by replacing old content with new content.
+
